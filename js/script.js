@@ -79,7 +79,7 @@ function createCats(cats) {
         htmlSend += `<div>
                     <h5>${cats[i].name}</h5>
                     <p>${cats[i].age}</p>
-                </div>`;
+                    </div>`;
         }
         return htmlSend;
 }
